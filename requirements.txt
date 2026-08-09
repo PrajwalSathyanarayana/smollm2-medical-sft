@@ -1,0 +1,8 @@
+pandas
+numpy
+datasets
+huggingface_hub
+matplotlib
+jupyter
+ipykernel
+python-dotenv
