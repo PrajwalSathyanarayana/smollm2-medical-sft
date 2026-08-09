@@ -1,0 +1,42 @@
+# Data files — datasets live in Drive/HuggingFace, not GitHub
+data/
+*.csv
+*.json
+*.jsonl
+!configs/*.json
+
+# Model artifacts — too large for GitHub, live on HuggingFace Hub instead
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+models/
+
+# Cloned dataset repo (MedQuAD) — pulled fresh via git clone in notebook, not stored in this repo
+MedQuAD/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+*.pem
+
+# Weights & Biases logs
+wandb/
+
+# OS-level junk
+.DS_Store
+Thumbs.db
+
+# Colab-specific
+sample_data/
