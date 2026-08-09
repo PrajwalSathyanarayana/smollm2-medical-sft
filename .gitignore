@@ -4,6 +4,7 @@ data/
 *.json
 *.jsonl
 !configs/*.json
+.vscode/
 
 # Model artifacts — too large for GitHub, live on HuggingFace Hub instead
 *.bin
