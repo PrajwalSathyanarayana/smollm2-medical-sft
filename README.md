@@ -4,7 +4,7 @@ Fine-tuning a 360M-parameter language model on a mixed medical Q&A corpus using 
 
 ## Research Question
 
-> How much of a 7B instruction-tuned model's medical Q&A performance can a fine-tuned 360M model recover — at roughly 20x lower inference cost?
+> How much of a 7B instruction-tuned model's medical Q&A performance can a fine-tuned 360M model recover at roughly 20x lower inference cost?
 
 ## Approach
 
