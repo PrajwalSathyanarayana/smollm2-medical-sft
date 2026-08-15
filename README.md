@@ -1,4 +1,4 @@
-# Domain-Adaptive Fine-Tuning of SmolLM2-360M for Medical Q&A
+# Domain Adaptive Fine Tuning of SmolLM2-360M for Medical Q&A
 
 Fine-tuning a 360M-parameter language model on a mixed medical Q&A corpus using full Supervised Fine-Tuning (SFT), then benchmarking it against larger models to study the cost-performance tradeoff of small domain-adapted models.
 
